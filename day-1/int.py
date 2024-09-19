@@ -37,3 +37,12 @@ print(type(a))
 a = 0o177
 print(a)
 print(type(a))
+
+a = 0x8ff
+print(a)
+print(type(a))
+
+a = 0xABC
+print(a)
+print(type(a))
+
