@@ -13,5 +13,7 @@ print(a / b)
 print(a // b)
 
 # 제곱 연산자
-
 print (a ** b)
+
+# 나눗셈
+print (a % b)
