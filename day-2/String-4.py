@@ -7,5 +7,10 @@ print(a)
 
 # 문자 바로대입
 # 문자일때 s
-a = "I eat %s apples." % "five"
-print(a)
+b = "I eat %s apples." % "five"
+print(b)
+
+# 변수 대입.
+number = 3
+c = "I eat %d apples." % number
+print(c)
