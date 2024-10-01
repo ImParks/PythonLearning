@@ -22,3 +22,9 @@ print(a)
 #중괄호 표현
 a = "{{ and }}".format()
 print(a)
+
+#f 문자열 포매팅
+name = '홍길동'
+age = 30
+a = f'나의 이름은 {name}입니다. 나는 {age}입니다.'
+print(a)
