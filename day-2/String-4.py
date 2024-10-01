@@ -14,3 +14,8 @@ print(b)
 number = 3
 c = "I eat %d apples." % number
 print(c)
+
+#복수 변수대입
+day = "three"
+d = "I eat %d apples. so I was sick for %s days." % (number,day)
+print(d)
