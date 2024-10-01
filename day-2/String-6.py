@@ -24,7 +24,23 @@ a = "{{ and }}".format()
 print(a)
 
 #f 문자열 포매팅
+#가장 최신버전에 나온 포매팅이다.
 name = '홍길동'
 age = 30
 a = f'나의 이름은 {name}입니다. 나는 {age}입니다.'
+print(a)
+
+#파이썬 연산도 가능.
+a = f'나의 이름은 {name}입니다. 나는 {age+1}입니다.'
+print(a)
+
+#정렬 활용
+a = f'{"hi":<10}'
+print(a)
+a = f'{"hi":>10}'
+print(a)
+
+# 소숫점 표현 
+y = 3.42134234
+a = f'{y:0.4f}'
 print(a)
